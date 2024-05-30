@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Name from './PrintName'
 import PicLoader from './PicLoader';
 import ParentComponent from './LiftingTheStateUp';
+import Parent from './LiftingTheStateUp/Parent';
 
 function App() {
   const firstName="Saket"
@@ -12,6 +12,7 @@ function App() {
       <Name firstName={firstName}/>
       <PicLoader/>
       <ParentComponent/>
+      <Parent/>
     </div>
   );
 }
