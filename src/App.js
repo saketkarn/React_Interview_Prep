@@ -4,6 +4,7 @@ import PicLoader from './PicLoader';
 import ParentComponent from './LiftingTheStateUp';
 import Parent from './PassingDataFromChildToParent/Parent';
 import HigherOrderComponent from './HigherOrderComponent';
+import HelloComponent from './Custom Hook/HelloComponent';
 
 function App() {
   const firstName="Saket"
@@ -15,6 +16,7 @@ function App() {
       <ParentComponent/>
   <Parent/> */}
       <HigherOrderComponent/>
+      <HelloComponent/>
     </div>
   );
 }
