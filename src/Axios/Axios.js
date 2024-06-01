@@ -30,6 +30,7 @@ const Axios = () => {
         getApiData()
     },[])
 
+
   return (
     <div>
       <h1>Axios</h1>
