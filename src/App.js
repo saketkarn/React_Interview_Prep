@@ -1,4 +1,5 @@
 import './App.css';
+import Axios from './Axios/Axios';
 // Import other components as needed
 // import Name from './PrintName';
 // import PicLoader from './PicLoader';
@@ -27,6 +28,7 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <LazyComponent />
       </Suspense>*/}
+      <Axios/>
     </div>
   );
 }
