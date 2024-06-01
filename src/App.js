@@ -3,7 +3,7 @@ import './App.css';
 // import Name from './PrintName';
 // import PicLoader from './PicLoader';
 // import ParentComponent from './LiftingTheStateUp';
-// import Parent from './PassingDataFromChildToParent/Parent';
+import Parent from './PassingDataFromChildToParent/Parent';
 // import HigherOrderComponent from './HigherOrderComponent';
 // import HelloComponent from './Custom Hook/HelloComponent';
 import { Suspense, lazy } from 'react';
@@ -22,11 +22,11 @@ function App() {
       <ParentComponent/>
       <Parent/>
       <HigherOrderComponent/>
-      <HelloComponent/> */}
+      <HelloComponent/> 
       <h1>Hello, React Code Splitting</h1>
       <Suspense fallback={<div>Loading...</div>}>
         <LazyComponent />
-      </Suspense>
+      </Suspense>*/}
     </div>
   );
 }
