@@ -18,7 +18,7 @@ const Axios = () => {
     const getApiData= async ()=>{
         try{
             const res=await axios.get('https://jsonplaceholder.typicode.com/posts')
-        console.log(res)
+            console.log(res)
         }
         catch(error){
             console.log(error)
