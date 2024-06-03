@@ -23,7 +23,6 @@ const Axios = () => {
         catch(error){
             console.log(error)
         }
-        
     }
 
     useEffect(()=>{
