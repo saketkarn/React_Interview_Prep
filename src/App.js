@@ -1,5 +1,6 @@
 import './App.css';
 import Axios from './Axios/Axios';
+import ErrorFromInputBox from './ErrorFromInputBox/ErrorFromInputBox';
 // Import other components as needed
 // import Name from './PrintName';
 // import PicLoader from './PicLoader';
@@ -27,8 +28,9 @@ function App() {
       <h1>Hello, React Code Splitting</h1>
       <Suspense fallback={<div>Loading...</div>}>
         <LazyComponent />
-      </Suspense>*/}
-      <Axios/>
+      </Suspense>
+      <Axios/>*/}
+      <ErrorFromInputBox/>
     </div>
   );
 }

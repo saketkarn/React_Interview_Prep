@@ -6,7 +6,7 @@ const Parent = () => {
   return (
     <div>
     I'm a {a}
-      <Child x={a} setX={setA}/>
+    <Child x={a} setX={setA}/>
     </div>
   )
 }
