@@ -9,6 +9,7 @@ import Parent from './PassingDataFromChildToParent/Parent';
 // import HigherOrderComponent from './HigherOrderComponent';
 // import HelloComponent from './Custom Hook/HelloComponent';
 import { Suspense, lazy } from 'react';
+import Temp from './Temp';
 
 // Use React.lazy for LazyComponent
 const LazyComponent = lazy(() => import('./Lazy Loading/LazyComponent'));
@@ -29,8 +30,9 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <LazyComponent />
       </Suspense>
-      <Axios/>*/}
-      <ErrorFromInputBox/>
+      <Axios/>
+      <ErrorFromInputBox/>*/}
+      <Temp/>
     </div>
   );
 }
